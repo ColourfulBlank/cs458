@@ -46,5 +46,5 @@ int main( void )                                  //main program
     fprintf( stderr, "execve failed.\n" );        //return err message if execv failed
   }
 
-  exit(0);                                        //exit(0)
+  exit( 0 );                                        //exit(0)
 }
