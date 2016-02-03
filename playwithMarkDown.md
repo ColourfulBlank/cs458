@@ -13,7 +13,7 @@ __this is Strong Word __
 
 Use the `PrintF` function
 
-`There is a literal backtick (`) here.``
+``There is a literal backtick (`) here.``
 
 A single backtick in a code span: `` ` ``
 
