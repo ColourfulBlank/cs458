@@ -35,15 +35,15 @@ Compare, and discuss briefly, connectionless (UDP) and connection-oriented (TCP)
 ####Question 5    
 Assume n computers are interconnected and the availability of each computer is needed to maintain a distributed service, and each of these computers has a probability p (0 ≤ p ≤ 1) of failing at any time.
 
-1. What is the probability ps that the service will not be available at any time, assuming that no other components in the distributed system will fail? Express ps as a mathematical function of n and p?
+1. What is the probability ps that the service will not be available at any time, assuming that no other components in the distributed system will fail? Express ps as a mathematical function of n and p?  
 Ps = 1 - (1 - p) ^ n
-2. Based on your answer for part (1), what is the probability ps when computing is not distributed, i.e., for the case where n = 1?
+2. Based on your answer for part (1), what is the probability ps when computing is not distributed, i.e., for the case where n = 1?  
 Ps = p
-3. Based on your answer for part (1), use p = 0.2 and n = 3 to compute probability ps. How does this probability compare with the failure probability if the same computing is performed on only one computer? 
-On three computers Ps = 0.488
-On ont computers Ps = 0.2
+3. Based on your answer for part (1), use p = 0.2 and n = 3 to compute probability ps. How does this probability compare with the failure probability if the same computing is performed on only one computer?   
+On three computers Ps = 0.488  
+On ont computers Ps = 0.2  
 failure probability goes higher
-4. Now assume that the service requires only one of the three computers (not each one of them), with the other two computers serving as backups (that is, each of the three computers, on its own, is capable of providing the service). What is the probability that the service will not be available at anytime, assuming that no other components in the distributed system will fail? How does the failure probability of this system compare with the failure probability if the same computing is performed on one computer only? 
+4. Now assume that the service requires only one of the three computers (not each one of them), with the other two computers serving as backups (that is, each of the three computers, on its own, is capable of providing the service). What is the probability that the service will not be available at anytime, assuming that no other components in the distributed system will fail? How does the failure probability of this system compare with the failure probability if the same computing is performed on one computer only?   
 ps =  p^n = 0.2 ^ 3 = 0.008 
 
 
